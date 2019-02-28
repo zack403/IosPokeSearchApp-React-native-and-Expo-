@@ -24,6 +24,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "A react native app wher you search pokemon",
+    "githubUrl": "https://github.com/zack403/IosPokeSearchApp-React-native-and-Expo-"
   }
 }

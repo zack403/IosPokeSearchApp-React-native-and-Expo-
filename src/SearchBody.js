@@ -16,7 +16,7 @@ class SearchBody extends Component {
         return ( 
             <ImageBackground source={pic} style={styles.backgroundImage}>
                <ScrollView style={{flex: 1}}>
-                <Text style={styles.header}>#{data.id} - {data.name}</Text>
+                <Text style={styles.header}>#{data.id} - {data.name.toUpperCase()}</Text>
                 <View style={styles.viewStyle}>
                     <Image 
                     source={{uri: data.sprites.front_default}}
